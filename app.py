@@ -32,12 +32,11 @@ UNITS_WORDS = {"kg", "cm", "mm", "m", "km", "hz", "mol", "nm", "v", "w", "ev", "
 # ==========================================
 @st.cache_resource 
 def load_models():
-    tfidf = joblib.load("models/tfidf.pkl")
-    joint_tfidf = joblib.load("models/joint_tfidf.pkl")
-    svd = joblib.load("models/svd.pkl")
-    lgb_models = joblib.load("models/lightgbm_models.pkl")
+    tfidf = joblib.load("tfidf.pkl")
+    joint_tfidf = joblib.load("joint_tfidf.pkl")
+    svd = joblib.load("svd.pkl")
+    lgb_models = joblib.load("lightgbm_models.pkl")
     return tfidf, joint_tfidf, svd, lgb_models
-
 tfidf, joint_tfidf, svd, lgb_models = load_models()
 
 # ==========================================
