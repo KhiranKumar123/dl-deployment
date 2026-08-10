@@ -1,0 +1,24 @@
+# Data Processing & Numerical Computing
+numpy
+pandas
+scipy
+
+# Data Visualization
+matplotlib
+seaborn
+
+# Machine Learning & Feature Engineering
+scikit-learn
+lightgbm
+xgboost
+joblib
+
+# Deep Learning & Natural Language Processing
+torch
+transformers
+sentencepiece
+
+# Utilities & Experiment Tracking
+tqdm
+wandb
+kagglehub
